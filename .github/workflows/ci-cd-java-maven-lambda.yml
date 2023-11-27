@@ -1,0 +1,21 @@
+# Description: Workflow that allow you to build and deploy java maven application in a lambda function.
+# Version 1.1
+# GitHub Code: https://github.com/Iberia-Ent/software-engineering--java-maven-lambda--template
+# GitHub Code: https://github.com/Iberia-Ent/software-engineering--workflow-java-maven-lambda
+# Git Flow Code: https://github.com/Iberia-Ent/software-engineering--git-flow-template
+name: CICD_JAVA_MAVEN_LAMBDA
+
+on:  
+  push:  
+    branches-ignore: [ main, develop, staging ]    
+  pull_request:  
+    branches: [ develop, staging ]
+    types:  [ opened, reopened, closed ]
+  release:
+    types:
+      - created
+            
+jobs:    
+  JAVA_LAMBDA:
+    uses: Iberia-Ent/software-engineering--workflow-java-maven-lambda/.github/workflows/ci-cd-java-maven-lambda.yml@v1.1
+    secrets: inherit

@@ -1,0 +1,53 @@
+{
+	"int":	{
+		"AWS_CODEARTIFACT_ACCOUNT_ID": "329066851743",
+		"AWS_CODEARTIFACT_DOMAIN": "iberia",		
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_NAME": "maven-central-store",
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_URL": "https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/maven-central-store/",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_NAME": "java-library-store",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_URL":"https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/java-library-store/",
+		"AWS_REGION": "eu-west-1",
+		"BUCKET_REPOSITORY": "iberia-java-releases-store-integration-operations",
+		"JAVA_JDK_VERSION": "8",
+		"JAVA_DISTRIBUTION": "temurin",
+		"MODULE_BUILDER_FOLDER_NAME":"NA",	
+		"DEPLOYMENT_URL": "https://www.miweb.dev.com",
+		"MAVEN_PROFILE": "",
+		"LAMBDA_FUNCTION_NAME": "myLambda",
+		"DEPLOY_ALIAS_NAME": "myAlias"
+	},
+	"pre": {
+		"AWS_CODEARTIFACT_ACCOUNT_ID": "329066851743",
+		"AWS_CODEARTIFACT_DOMAIN": "iberia",		
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_NAME": "maven-central-store",
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_URL": "https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/maven-central-store/",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_NAME": "java-library-store",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_URL":"https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/java-library-store/",
+		"AWS_REGION": "eu-west-1",
+		"BUCKET_REPOSITORY": "iberia-java-releases-store-integra-operations",
+		"JAVA_JDK_VERSION": "8",
+		"JAVA_DISTRIBUTION": "temurin",
+		"MODULE_BUILDER_FOLDER_NAME":"NA",	
+		"DEPLOYMENT_URL": "https://www.miweb.pre.com",
+		"MAVEN_PROFILE": "",
+		"LAMBDA_FUNCTION_NAME": "myLambda",
+		"DEPLOY_ALIAS_NAME": "myAlias"
+	},
+	"prod": {
+		"AWS_CODEARTIFACT_ACCOUNT_ID": "329066851743",
+		"AWS_CODEARTIFACT_DOMAIN": "iberia",		
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_NAME": "maven-central-store",
+		"AWS_CODEARTIFACT_REPOSITORY_CENTRAL_URL": "https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/maven-central-store/",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_NAME": "java-library-store",
+		"AWS_CODEARTIFACT_LIBRARY_REPOSITORY_URL":"https://iberia-329066851743.d.codeartifact.eu-west-1.amazonaws.com/maven/java-library-store/",
+		"AWS_REGION": "eu-west-1",
+		"BUCKET_REPOSITORY": "iberia-java-releases-store-production-operations",
+		"JAVA_JDK_VERSION": "8",
+		"JAVA_DISTRIBUTION": "temurin",
+		"MODULE_BUILDER_FOLDER_NAME":"NA",	
+		"DEPLOYMENT_URL": "https://www.miweb.Pro.com",
+		"MAVEN_PROFILE": "",
+		"LAMBDA_FUNCTION_NAME": "myLambda",
+		"DEPLOY_ALIAS_NAME": "myAlias"
+	}
+}
